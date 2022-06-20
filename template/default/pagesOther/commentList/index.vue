@@ -10,12 +10,12 @@
         <view
             style="text-align:center;margin-bottom: 60upx;"
         >
-            <u-loading
+            <u-loading-icon
                 mode="circle"
                 color="#408CE2"
                 size="32"
                 v-show="showLoading"
-            ></u-loading>
+            ></u-loading-icon>
             {{reachLimit?'到底了~':''}}
         </view>
     </view>

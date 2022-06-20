@@ -12,7 +12,7 @@
     <scroll-view :scroll-y="true" :scroll-top="scrollTop" scroll-with-animation="true" class="scroll-wrap">
       <view style="padding-bottom: 228upx;" id="ScrollBox">
         <view class="loading-wrap" v-if="showHistoryLoading">
-          <u-loading mode="circle" color="#408CE2" size="32" v-show="showHistoryLoading"></u-loading>
+          <u-loading-icon mode="circle" color="#408CE2" size="32" v-show="showHistoryLoading"></u-loading-icon>
         </view>
         <!-- <view class="history-text" v-else @click="handleHistory()">查看更多历史消息</view> -->
         <!-- begin 历史记录-->
@@ -400,7 +400,7 @@
         </view>
       </view>
     </view>
-    <u-top-tips ref="uTips"></u-top-tips>
+    <!-- <u-top-tips ref="uTips"></u-top-tips> -->
     <view v-if="isRecord && inVoice" class="in-voice">
       <image src="https://public-file.aegis-info.com/ilawpush_wxmini/common/listen.gif" mode="widthFix" alt=""
              class="listen"></image>

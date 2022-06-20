@@ -230,10 +230,9 @@
                                 {{item1.name}}
                             </view>
                         </view>
-                        <u-loading
-                            mode="flower"
+                        <u-loading-icon
                             v-else
-                        ></u-loading>
+                        ></u-loading-icon>
                     </view>
                     <!-- 3 案由连接 -->
                     <view
@@ -419,7 +418,7 @@
                 </view> -->
             </view>
         </view>
-        <u-top-tips ref="uTips"></u-top-tips>
+        <!-- <u-top-tips ref="uTips"></u-top-tips> -->
         <view
             v-if="isRecord && inVoice"
             class="in-voice"

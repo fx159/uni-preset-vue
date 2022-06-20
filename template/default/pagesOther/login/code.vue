@@ -5,7 +5,7 @@
 			<view class="tips">验证码已发送至 +{{hidePhone}}</view>
 			<view @click="handleClick">
 
-			<u-message-input :focus="true" :value="value" @change="change"  @finish="finish" mode="bottomLine" :maxlength="maxlength"></u-message-input>
+			<!-- <u-message-input :focus="true" :value="value" @change="change"  @finish="finish" mode="bottomLine" :maxlength="maxlength"></u-message-input> -->
 			</view>
 			<text :class="{ error: error }">验证码错误，请重新输入</text>
 			<view class="captcha">

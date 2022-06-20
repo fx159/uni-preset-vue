@@ -64,10 +64,10 @@
 		<view class="submitBtn">
 			<button type="primary" class="submitContent" @click="submiting">提交<text v-if="!isWaited" style="margin-left: 10rpx;">{{ count }}</text></button>
 		</view>
-
+<!-- 
 		<u-select v-model="showTypeSelect" mode="single-column" value-name="id" label-name="name" :list="TypeList" @confirm="handleTypeConfirm($event, 'type')"></u-select>
 		<u-select v-model="showStageSelect" mode="single-column" value-name="id" label-name="name" :list="stageList" @confirm="handleTypeConfirm($event, 'stage')"></u-select>
-		<u-select v-model="showMoneySelect" mode="single-column" value-name="id" label-name="name" :list="moneyList" @confirm="handleTypeConfirm($event, 'money')"></u-select>
+		<u-select v-model="showMoneySelect" mode="single-column" value-name="id" label-name="name" :list="moneyList" @confirm="handleTypeConfirm($event, 'money')"></u-select> -->
 
 		<u-modal v-model="showCloseTips"
 			cancel-text="确认离开"

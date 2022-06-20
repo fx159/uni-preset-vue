@@ -14,13 +14,13 @@
         </view>
         <view class="concat" @click="showModal = true" v-if="showCustom">联系客服</view>
         <button class="submit-btn" @click="back()">{{btnText}}</button>
-        <u-mask :show="showModal" mask-click-able='false'>
+        <!-- <u-mask :show="showModal" mask-click-able='false'>
             <view class="model-con">
                 <image src='https://public-file.aegis-info.com/yuanjia/common/kefu.png' mode="widthFix"></image>
                 <view class="text">可扫码或添加微信“aegis_2020”联系客服</view>
                 <view class="modal-btn" @click="showModal = false">我知道了</view>
             </view>
-        </u-mask>
+        </u-mask> -->
     </view>
 </template>
 

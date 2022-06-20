@@ -29,7 +29,7 @@
 				<text class="link" @click="handleShowText(1)">《免责声明》</text>
 			</view>
 		</view>
-		<u-top-tips ref="uTips"></u-top-tips>
+		<!-- <u-top-tips ref="uTips"></u-top-tips> -->
 		<u-popup v-model="showPhoneButton" mode="bottom">
 				<view class="phoneContainer">
 					<view class="desc">
