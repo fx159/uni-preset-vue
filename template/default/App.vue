@@ -1,4 +1,5 @@
 <script>
+import config from './common/config'
 	export default {
 		globalData: {
 			userId: '', // 用户ID

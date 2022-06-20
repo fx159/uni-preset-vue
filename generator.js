@@ -51,7 +51,7 @@ module.exports = (api, options, rootOptions) => {
         'miniprogram-api-typings': '*',
         'mini-types': '*',
         'sass': '^1.49.8',
-        'sass-loader': '^8.0.2'
+        'sass-loader': '^8.0.2',
       },
       resolutions: {
         "@babel/runtime": "~7.17.9"
@@ -93,7 +93,11 @@ module.exports = (api, options, rootOptions) => {
     const base = 'src'
     await generate(path.resolve(__dirname, './template/common'), files)
     if (template === 'default') {
-      await generate(path.resolve(__dirname, './template/default'), files, base, rootOptions)
+      if (path.basename(filename) === 'vue.config.js'){
+        await generate(path.resolve(__dirname, './template/default'), files, '', rootOptions)
+      } else {
+        await generate(path.resolve(__dirname, './template/default'), files, base, rootOptions)
+      }
     } else if (template === 'default-ts') {
       await generate(path.resolve(__dirname, './template/common-ts'), files)
       await generate(path.resolve(__dirname, './template/default-ts'), files, base, rootOptions)
