@@ -537,7 +537,7 @@ export default {
 		border-radius: 6upx;
 	}
 	.confirm{
-		background-color: $uni-color-houlv ;
+		background-color: #2E4E6F ;
 		color: #FFFFFF;
 	}
 	.reset{

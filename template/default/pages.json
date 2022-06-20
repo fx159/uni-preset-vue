@@ -99,9 +99,6 @@
           }
         },
         {
-          "path": "my-user-detail/index"
-        },
-        {
           "path": "my-order-detail/index"
         },
         {
