@@ -182,7 +182,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 	.desc{
 		background-color: #E5EBF4;
 		padding: 20upx;

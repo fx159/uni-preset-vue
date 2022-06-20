@@ -59,7 +59,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .laebl-right-confirm{
 	color: #F8602A ;
 	font-size: 32upx;

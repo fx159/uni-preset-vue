@@ -257,7 +257,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 	.title{
 		padding:10upx 20upx;
 	}

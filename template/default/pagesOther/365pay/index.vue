@@ -392,7 +392,7 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .pay-container {
     padding-bottom: 123upx;
     background-color: #ffffff;

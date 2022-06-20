@@ -191,7 +191,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .order-comment-container {
   background-color: #fff;
   padding: 0 24upx;

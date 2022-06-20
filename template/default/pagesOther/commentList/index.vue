@@ -21,8 +21,8 @@
     </view>
 </template>
 
-<style lang="less" scoped>
-@import "./index.less";
+<style lang="scss" scoped>
+@import "./index.scss";
 </style>
 
 <script>

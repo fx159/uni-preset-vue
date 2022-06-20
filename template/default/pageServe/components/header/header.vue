@@ -140,7 +140,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .search{
   display: flex;
   align-items: center;

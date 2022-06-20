@@ -367,7 +367,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 /**
  * @Author : GaoHan
  * @Date : 2020/12/18

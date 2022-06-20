@@ -364,7 +364,7 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .advice-submit-page {
     padding-top: 28upx;
     margin-bottom: 60upx;

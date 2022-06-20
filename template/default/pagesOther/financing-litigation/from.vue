@@ -206,7 +206,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .container{
     widows: 100%;
     background: #F5F5F5;

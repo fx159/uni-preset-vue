@@ -231,7 +231,7 @@ import signModal from '../../wxcomponents/signModal'
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .order-container{
 	padding: 30upx;
 	font-size: 28upx;

@@ -81,7 +81,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 	.login-message{
 	  position: relative;
 		width: 100%;

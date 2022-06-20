@@ -37,7 +37,7 @@ export default {
     mounted() {},
 };
 </script>
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .title {
     color: #2e4e6f;
     font-weight: 800;

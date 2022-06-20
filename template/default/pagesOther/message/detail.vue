@@ -179,7 +179,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 	.message-detail-page {
 		height: 100vh;
 		width: 100vw;

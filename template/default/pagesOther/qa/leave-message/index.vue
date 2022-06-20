@@ -376,7 +376,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 	@import "./index";
 	.select-area /deep/ .u-form-item{
 		border-top: 1px solid #000;

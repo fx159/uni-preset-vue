@@ -346,7 +346,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 @import "./index";
 .content{
 	padding: 0 30upx;

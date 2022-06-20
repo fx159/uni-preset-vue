@@ -249,7 +249,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .container {
   display: flex;
   flex-wrap: wrap;

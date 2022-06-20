@@ -243,7 +243,7 @@
 		},
 	}
 </script>
-<style lang="less" scoped>
+<style lang="scss" scoped>
  @import "./index";
 </style>
 

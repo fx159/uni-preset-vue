@@ -91,7 +91,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 	.message-list-page {
 		.noContent{
 			width: 100%;

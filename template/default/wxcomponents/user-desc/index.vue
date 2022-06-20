@@ -48,7 +48,7 @@
 	}
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .desc{
 	display: flex;
 	margin: 0 0 20upx 0;

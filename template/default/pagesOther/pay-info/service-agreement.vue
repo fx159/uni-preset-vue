@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .service-agreement-container {
   background-color: #fff;
   .page-content {

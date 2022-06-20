@@ -105,7 +105,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .container{
     padding: 0 40upx;
     .item{

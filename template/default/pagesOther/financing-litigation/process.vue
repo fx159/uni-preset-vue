@@ -98,7 +98,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .container{
     width: 100%;
     background: #fff;
