@@ -3,14 +3,14 @@
 	.scroll-height{
 		max-height: 900upx;
 	}
-	/deep/.scroll-height::-webkit-scrollbar-thumb {
-		/*滚动条里面小方块*/
-		background: red;
-	}
-	/deep/.scroll-height::-webkit-scrollbar-track {
-		/*滚动条里面轨道*/
-		background: transparent;
-	}
+	// /deep/.scroll-height::-webkit-scrollbar-thumb {
+	// 	/*滚动条里面小方块*/
+	// 	background: red;
+	// }
+	// /deep/.scroll-height::-webkit-scrollbar-track {
+	// 	/*滚动条里面轨道*/
+	// 	background: transparent;
+	// }
 	.title{
 		text-align: center;
 	}

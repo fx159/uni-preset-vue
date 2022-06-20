@@ -1,7 +1,7 @@
 {
   "easycom": {
-    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
-  },
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
   "pages": [
     {
       "path": "pages/home/index",
@@ -176,18 +176,6 @@
           "style": {}
         },
         {
-          "path": "pay-info/index",
-          "style": {
-            "navigationBarTitleText": "支付订单 "
-          }
-        },
-        {
-          "path": "pay-info/product-pay",
-          "style": {
-            "navigationBarTitleText": "支付订单 "
-          }
-        },
-        {
           "path": "pay-info/service-agreement",
           "style": {
             "navigationBarTitleText": "服务协议 "
@@ -251,16 +239,6 @@
           "style": {
             "navigationBarTitleText": "收款记录"
           }
-        },
-        {
-          "path": "address-administration/index",
-          "style": {
-            "navigationBarTitleText": "地址管理"
-          }
-        },
-        {
-          "path": "map/index",
-          "style": {}
         }
       ]
     }

@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import UImage from "../../uview-ui/components/u-image/u-image";
+import UImage from "uview-ui/components/u-image/u-image";
 export default {
     components: { UImage },
     props: {

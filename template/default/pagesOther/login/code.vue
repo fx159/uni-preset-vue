@@ -224,7 +224,7 @@
 	}
 
 	.captcha {
-		color: $u-type-warning;
+		// color: $u-type-warning;
 		padding: 0 40upx;
 		font-size: 30rpx;
 		margin-top: 40rpx;

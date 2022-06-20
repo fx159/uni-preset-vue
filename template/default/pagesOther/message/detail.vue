@@ -185,7 +185,7 @@
 		width: 100vw;
 
 		.message-wrap {
-			height: calc(~"100vh - 180upx");
+			height: calc("100vh - 180upx");
 			overflow-y: hidden;
 
 			.message-list {
@@ -236,7 +236,7 @@
 						position: relative;
 						word-break: break-all;
 
-						&.image-content {
+						.image-content {
 							background-color: transparent;
 							box-shadow: none;
 							padding: 0;

@@ -43,7 +43,7 @@
 			console.log('App Hide')
 		},
 		methods:{
-			getUserInfo(){
+			async getUserInfo(){
 				const userInfo = await uni.getStorageSync('user-info');
 				if (userInfo && userInfo.id) {
 					console.log(userInfo.unionid)
@@ -81,6 +81,7 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
+@import "uview-ui/index.scss";
 	/*每个页面公共css */
 </style>

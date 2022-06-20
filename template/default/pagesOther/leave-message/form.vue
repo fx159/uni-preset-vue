@@ -413,8 +413,8 @@
 
 <style lang="scss" scoped>
 	@import "./form.scss";
-	.select-area /deep/ .u-form-item{
-		border-top: 1px solid #000;
-		border-bottom: 1px solid #000;
-	}
+	// .select-area /deep/ .u-form-item{
+	// 	border-top: 1px solid #000;
+	// 	border-bottom: 1px solid #000;
+	// }
 </style>

@@ -441,7 +441,7 @@ export default {
 	  right: 22upx;
 	  font-size: 33upx;
 	  text{
-		  color: $uni-color-houlv;
+		  // color: $uni-color-houlv;
 		  display: inline-block;
 		  
 	  }

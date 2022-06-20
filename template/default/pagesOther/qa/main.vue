@@ -475,14 +475,14 @@
     <!--endregion-->
 
     <!--region app二维码下载-->
-    <u-popup v-model="showDownLoadAppPopup" mode="center" border-radius="14" :closeable="true">
+    <!-- <u-popup v-model="showDownLoadAppPopup" mode="center" border-radius="14" :closeable="true">
       <view class="app-download-content">
         <view class="erweima-box">
           <img class="down-erweima" src="../../static/icon/appDownload.png" alt="">
           <view class="down-tip-text">点击图片，保存到相册，下载APP</view>
         </view>
       </view>
-    </u-popup>
+    </u-popup> -->
     <!--endregion-->
   </view>
 </template>
