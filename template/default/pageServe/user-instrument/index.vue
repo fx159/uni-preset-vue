@@ -463,7 +463,7 @@ export default {
     }
 	.active{
 	    background: rgba(46, 78, 111, 0.1);
-	    color: $uni-color-houlv;
+	    color: #2E4E6F;
 	}
 }
 .custom-time{
@@ -541,8 +541,8 @@ export default {
 		color: #FFFFFF;
 	}
 	.reset{
-		border: 2upx $uni-color-houlv solid;
-		color: $uni-color-houlv
+		border: 2upx #2E4E6F solid;
+		color: #2E4E6F
 	}
 }
 </style>
