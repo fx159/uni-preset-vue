@@ -1,0 +1,291 @@
+.index-page {
+  // padding: 24upx 24upx 20upx;
+  // box-sizing: border-box;
+  background-color: #fff;
+  .main{
+    padding: 24upx 24upx 20upx;
+    box-sizing: border-box;
+  }
+  .legal-counsel{
+	  margin-top: 30upx;
+  }
+  .service-content-first {
+    margin: 20upx 0upx 0upx 20upx;
+    display: grid;
+    // flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 170upx 170upx;
+    grid-row-gap: 10upx;
+    grid-column-gap: 20upx;
+    .service-item{
+      text-align: left;
+      box-sizing: border-box;
+      padding: 15upx 0upx 15upx 15upx;
+      border-radius: 8upx;
+      color: #28354A;
+    }
+  }
+  .service-content-two{
+    margin: 30upx 0upx 60upx 0 ;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    .counsel-item{
+      position: relative;
+      text-align: center;
+      .service-icon-two{
+        width: 100upx;
+        height: 100upx;
+      }
+      .counsel-text{
+        color: #28354A;
+      }
+      .counsel-price{
+        position: absolute;
+        bottom: -40upx;
+        width: 160upx;
+        text-align: center;
+        left: 50%;
+        font-size: 24upx;
+        transform: translateX(-50%);
+        color: #FF4049;
+      }
+    }
+  }
+  .characteristic-service, .law-subject-content {
+    .title {
+      font-size: 30upx;
+      margin-left: 20upx;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 600;
+      color: #28354A;
+      line-height: 42upx;
+      box-sizing: border-box;
+    }
+    .service-content {
+      // display: grid;
+      // // flex-wrap: wrap;
+      // grid-template-columns: 25% 25% 25% 25%;
+      // justify-content: center;
+      .service-item{
+        // height: 120upx;
+        // flex: 0 1 160upx;
+      }
+      .service-icon {
+        width: 60upx;
+        height: 60upx;
+      }
+      .legal-grid-text{
+        font-size: 26upx;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        text-align: center;
+        color: #333333;
+        line-height: 1;
+        margin-top: 12upx;
+        width: 116upx;
+        height: 50upx;
+	    }
+      .grid-text {
+        font-size: 26upx;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+		    text-align: center;
+        color: #333333;
+        line-height: 1;
+        margin-top: 12upx;
+        width: 140upx;
+        height: 40upx;
+      }
+    }
+  }
+
+  .law-subject-content {
+    .subject-title {
+      // margin-top: 16upx;
+      margin-left: 20upx;
+      position: relative;
+      font-weight: 600;
+      font-size: 30upx;
+    }
+    .more-icon {
+      position: absolute;
+      right: 10upx;
+      color: #CCCCCC;
+      font-size: 36upx;
+    }
+	
+  .content-box{
+    display: flex;
+    margin: 18upx;
+    height: 140upx;
+    align-items: center;
+
+    .subject-icon {
+      width: 142upx;
+      height: 104upx;
+      
+      // border-radius: 60upx;
+    }
+    .grid-text-law{
+      .text-law-name-hot{
+        position: relative;
+        margin-left: 68upx;
+        &::after{
+          position: absolute;
+          content: '热门';
+          font-size: 22upx;
+          color: #FFFFFF;
+          background-color:#FF4049;
+          border-radius: 4upx;
+          width: 52upx;
+          height: 30upx;
+          text-align: center;
+          left: -60upx;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+      .text-law-name{
+        font-size: 32upx;
+        color: #28354A;
+      }
+      .text-law-desc{
+        font-size: 28upx;
+        white-space: nowrap;
+        color: #5B758F;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 480upx;
+        margin: 15upx 0;
+      }
+      .text-law-count{
+        color: #A4ADB4;
+        font-size: 24upx;
+      }
+      flex: 1;
+      text-align: left;
+      padding: 0upx 20upx ;
+      // height: 120upx;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      // line-height: 140upx;
+    }
+  }
+  }
+
+  .login-container {
+    position: fixed;
+    left: 20upx;
+    bottom: 16upx;
+    width: 718upx;
+    height: 88upx;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 8upx;
+    font-size: 24upx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #F9F9F9;
+    line-height: 88upx;
+
+    .login-text {
+      margin-left: 32upx;
+    }
+
+    .login-btn {
+      position: absolute;
+      right: 32upx;
+      top: 20upx;
+      width: 136upx;
+      height: 48upx;
+      background: #3565E6;
+      line-height: 48upx;
+      text-align: center;
+      padding: 0 14upx;
+      border-radius: 20upx;
+      font-size: 22upx;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.header-content{
+  box-sizing: border-box;
+  // height: 484upx;
+  height: 572upx;
+  width: 100%;
+  position: relative;
+  // background: url(https://cdn-obs-question.aegis-info.com/mall/newspaper/20220607_79b2679d-0efa-4ac9-8860-171ad87a80c5.png) no-repeat center center;
+  // background-size: cover;
+  display: flex;
+  margin-bottom: 165upx;
+  .swiper-step{
+    position: absolute;
+    width: 200upx;
+    bottom: 20upx;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100upx;
+    right: 20upx;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    .step-item{
+      margin: 0 10upx;
+      transition: width .1s ease;
+      height: 40upx;
+      line-height: 40upx;
+      border-radius: 2upx;
+      z-index: 999;
+      position: relative;
+      &::after{
+        position: absolute;
+        content: '';
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 4upx;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  .banner{
+    width: 100%;
+  }
+  .bottom-wrap{
+    position: absolute;
+    width: 100%;
+    height: 220upx;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30upx;
+    bottom: -165upx;
+    image{
+      width:48%
+    }
+  }
+}
+.title-text{
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 32upx;
+  color: #FFFFFF;
+  z-index: 999;
+}
+.video-item{
+  height: 100%;
+  width: 100%;
+  background: url(https://cdn-obs-question.aegis-info.com/mall/newspaper/20220609_40832421-bd27-43f9-b940-1ad9d684073f.png) no-repeat center center;
+  background-size: cover;
+  video{
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 2upx;
+  }
+}

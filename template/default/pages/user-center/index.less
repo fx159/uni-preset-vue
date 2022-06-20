@@ -1,0 +1,405 @@
+	.user-center-page {
+		background-color: #ffffff;
+		min-height: 100vh;
+		// padding: 0 20upx;
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+	}
+	.right-arrow{
+		width: 24upx;
+		height: 24upx;
+		background: url('https://public-file.aegis-info.com/yuanjia/common/left.png') center no-repeat;
+		background-size: 100% 100%;
+	}
+	.login-message{
+	   position: relative;
+	//    left: 0;
+	//    top: 0;
+	   	width: 100%;
+	   	height: 396upx;
+	   	// background-color: #D2450E;
+	   	background: url('https://cdn-obs-question.aegis-info.com/mall/newspaper/20220512_b318fe68-eb81-493d-9c51-89d52c82450f.png');
+	   	background-size: cover;
+    	background-position: center center;
+	  	.login-avater{
+				width: 100upx;
+				height: 100upx;
+				border: 5upx #ccc solid;
+				border-radius: 50%;
+			}
+		.login-btn{
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 10upx;
+		}
+		.login-info{
+			width: 100%;
+			position: absolute;
+			display: flex;
+			line-height: 140upx;
+			padding: 0 38upx;
+			align-items: center;
+			bottom: 58upx;
+		}
+		.user-text{
+			flex: 1;
+			justify-content: center;
+			display: flex;
+			flex-flow: column;
+			height: 100%;
+			margin-left: 30upx;
+			color: #FFFFFF;
+			text{
+				display: inline-block;
+				height: 40upx;
+				line-height: 40upx;
+			}
+			.user-name{
+				font-size: 36upx;
+			}
+			.user-role{
+				font-size: 22upx;
+			}
+			.administrator{
+				width: 140upx;
+				height: 37upx;
+				background: linear-gradient(180deg, #FFDFBA 0%, #FBBE73 100%);
+				border-radius: 4px;
+				border: 2upx solid #FFFFFF;
+				font-size: 20upx;
+				color: #7C4802;
+				padding: 0 16upx;
+				line-height: 34upx;
+				vertical-align: bottom;
+    			margin-left: 15upx;
+				text-align: center;
+			}
+			.right-arrow{
+				position: absolute;
+				right: 2upx;
+				top: 50upx;
+			}
+		}
+	}
+	.no-administrator-con{
+		margin: 40upx 0;
+		display: flex;
+		justify-content: space-around;
+		.item{
+			text-align: center;
+			font-size: 28upx;
+			color: #131415;
+			image{
+				display: block;
+				margin: 0 auto 20upx;
+				width: 60upx;
+				height: 60upx;
+			}
+		}
+	}
+	.list-con{
+		margin-top: 20upx;
+		.list-item{
+			width: 100%;
+			padding: 44upx 40upx;
+			font-size: 32upx;
+			font-family: PingFangSC-Regular, PingFang SC;
+			font-weight: 400;
+			color: #28354A ;
+			position: relative;
+			image{
+				width: 36upx;
+				height: 36upx;
+				margin-right: 16upx;
+    			vertical-align: sub;
+			}
+			.right-arrow{
+				position: absolute;
+				right: 40upx;
+				top: 50upx;
+				background: url('https://public-file.aegis-info.com/yuanjia/common/left1.png') center no-repeat;
+				background-size: 100% 100%;
+			}
+		}
+	}
+	.line{
+		margin: 20upx 40upx;
+		height: 2upx;
+		border: 1upx solid #EEEEEE;
+	}
+	.code-message{
+		margin-top: 160upx;
+		height: 120upx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0upx 4upx 16upx 0upx #D3D3D3;
+		.code-text{
+			margin: 0 30upx;
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+			font-size: 30upx;
+			vertical-align: middle;
+		}
+		.code-icon{
+			height: 48upx;
+			position: absolute;
+			left: 60upx;
+		}
+		.code-container{
+			position: relative;
+			width: 100%;
+		}
+	}
+	.consult-card{
+		margin: 30upx 0;
+		height: 240upx;
+		box-shadow: 0upx 4upx 16upx 0upx #D3D3D3;
+		position: relative;
+		.consult-container{
+			display: flex;
+			flex-flow: column;
+			margin: 10upx 0;
+			height: 80upx;
+		}
+		.consult-bottom{
+		  bottom: 0;
+		  height: 60upx;
+		  position: relative;
+		}
+		
+	}
+	.consult-card-img{
+		margin: 30upx 0;
+		width: 100%;
+		height: 236upx;
+		image {
+		  width: 100%;
+		  height: 100%;
+		}
+	}
+	.consult-card-buy{
+		height: 100%;
+		width: 100%;
+		align-items: center;
+		background: no-repeat center center;
+		background-size: cover;
+		position: relative;
+		color: #FFFFFF;
+		.card-img{
+			width: 180upx;
+			height: 140upx;
+			margin: 0 10upx;
+		}
+		.consult-card-buy-right{
+			display: flex;
+			flex-flow: column;
+			flex: 1;
+			padding: 20upx 10upx 0upx 30upx;
+			.consult-card-buy-text{
+			  font-size: 20upx;
+			  white-space: nowrap;
+			  margin: 15upx 8upx 0 8upx;
+			}
+			.consult-card-buy-bottom{
+				display: flex;
+				justify-content: space-between;
+				padding: 10upx 20upx 0upx 30upx;
+				height: 70upx;
+				align-items: center;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 100%;
+				// margin-bottom: 20upx;
+				// font-weight: bold;
+				.consult-card-buy-bottom-text{
+					font-size: 22upx;
+				}
+			   .consult-card-buy-bottom-btn{
+				   width: 120upx;
+				   height: 40upx;
+				   line-height: 40upx;
+				   font-size: 20upx;
+				   margin-right: 20upx;
+			   }
+			}
+			.consult-card-buy-btn{
+				 // border-radius: 30upx;
+				 width: 132upx;
+				 height: 44upx;
+				 font-size: 22upx;
+				 line-height: 44upx;
+				 text-align: center;
+				 // border: 2upx #FFFFFF solid;
+				 margin-right: 20upx;
+			}
+		}
+		.consult-card-buy-title{
+			width: 100%;
+			height: 60upx;
+			display: flex;
+			align-items: center;
+			position: relative;
+			text{
+				font-size: 24upx;
+                position: absolute;
+				right: 20upx;
+				display: inline-block;
+				width: 140upx;
+				height: 40upx;
+				border-radius: 20upx;
+				border: 1upx #FFFFFF solid;
+				text-align: center;
+			}
+		}
+		
+	}
+	.law-entrance{
+		height: 342upx;
+		box-sizing: border-box;
+		padding: 30upx 30upx;
+		box-shadow: 0upx 4upx 20upx 0 #BFBFBF;
+		position: relative;
+		.law-title{
+			font-size: 36upx;
+			font-weight: bolder;
+		}
+		.law-container{
+			position: relative;
+			height: 140upx;
+			// line-height: 80upx;
+			display: flex;
+			padding: 20upx 0;
+			align-items: center;
+			width: 100%;
+			.law-desc{
+				flex: 1;
+				height: 100%;
+				font-size: 26upx;
+				position: relative;
+				// align-items: center;
+			}
+			.law-text{
+			  width: 445upx;
+			  margin-left: 52upx;
+			  // margin-top: 20upx;
+			  display: inline-block;
+			}
+			.law-icon{
+				position: absolute;
+				top: 8upx;
+			}
+		}
+		.law-phone{
+			// line-height: 80upx;
+			border-bottom: 1upx #EEEEEE solid;
+			display: flex;
+			// margin: 10upx 0;
+			align-items: center;
+			width: 100%;
+			.law-desc{
+				height: 80upx;
+				flex: 1;
+				display: flex;
+				align-items: center;
+			}
+		}
+		.law-icon{
+		   width: 30upx;
+		   height: 30upx;
+		   margin-right: 20upx;
+		}
+		.law-btn{
+		   width: 128upx;
+		   height: 42upx;
+		   line-height: 42upx;
+		   background-color: #3565E6;
+		   border-radius: 22upx;
+		   font-size: 20upx;
+		   text-align: center;
+		   color: #ffffff;
+		}
+		.law-desc{
+			flex: 1;
+			word-wrap: break-word;
+			word-break: normal;
+		}
+	}
+	  .active-code{
+		  width: 560upx;
+		  height: 260upx;
+		  text-align: center;
+		  position: relative;
+		  .code-title{
+			  height: 90upx;
+			  line-height: 90upx;
+			  font-size: 34upx;
+		  }
+		  .code-bottom{
+			 position: absolute;
+			 bottom: 0;
+			 left: 0;
+			 width: 100%;
+			 display: flex;
+			 align-items: center;
+			 height: 100upx;
+			 border-top: 2upx #ccc solid;
+		  } 
+		  .qrcode-bottom{
+			 position: absolute;
+			 bottom: 0;
+			 left: 0;
+			 height: 80upx;
+			 width: 100%;
+			 justify-content: center;
+			 display: flex;
+			 align-items: center;
+			 border-top: 2upx #ccc solid; 
+		  }
+		  .code-text{
+			  display: inline-block;
+			  width: 100%;
+		  }
+	  }
+
+	  .qr-code{
+		  width: 458upx;
+		  height: 560upx;
+		  text-align: center;
+		  position: relative;
+		  .code-canvas{
+			width: 100%;
+			height: 480upx;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		  }
+		  .code{
+			  width: 400upx;
+			  height: 400upx;
+		  }
+		  .code-bottom{
+			  border-top: 2upx #ccc solid;
+			  height: 80upx;
+			  line-height: 80upx;
+		  }
+	  }
+	  .canvas-container{
+		  height: 380upx;
+		  width: 458upx;
+	  }
+	  .active-text{
+		 color: #3565E6;
+		 font-size: 30upx;
+	  }
+	  .address-setting{
+		  position: absolute;
+		  right: 30upx;
+		  top: 30upx;
+		  width: 40upx;
+		  height: 40upx;
+	  }

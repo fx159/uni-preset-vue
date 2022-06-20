@@ -1,0 +1,162 @@
+.form-wrapper{
+	padding-bottom: 250rpx;
+	.close{
+		padding: 20rpx 0 0 30rpx;
+	}
+	.queue-box{
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10rpx;
+		.queue-tip{
+			width: 620rpx;
+			text-align: center;
+			background-color: rgba(214, 221, 233, 0.95);
+			box-shadow: 0 4rpx 8rpx 0 rgba(159, 176, 205, 0.5);
+			border-radius: 40px;
+			padding: 20rpx 40rpx;
+			margin: auto;
+			color: #113260;
+			font-size: 28rpx;
+			.queue-text{
+				.queue-num{
+					color: #2B85E4;
+				}
+				.cancelRank{
+					margin-left: 10rpx;
+					color: #4AA2FF;
+					font-weight: bold;
+				}
+			}
+			.cancel-queue{
+				margin-left: 26px;
+				color: #2B85E4;
+			}
+		}
+	}
+	.upload-area{
+		margin: 20rpx 0;
+		padding: 0 40rpx;
+		border-bottom: 1px solid #EEEEEE;
+		.upload-image {
+			margin-top: 46upx;
+			margin-bottom: 50upx;
+			box-sizing: border-box;
+
+			&.margin-left-0 {
+				margin-top: 20upx;
+			}
+
+			.u-list-item {
+				margin: 17upx 20upx 0 0;
+				box-sizing: border-box;
+				border-width: 0;
+				overflow: visible;
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				image {
+					width: 152upx;
+					height: 156upx;
+				}
+
+				.u-delete-icon {
+					top: -20upx;
+					right: -16upx;
+				}
+
+				.u-error-btn {
+					background-color: rgba(0, 0, 0, .4);
+				}
+			}
+
+			.slot-btn {
+				border-radius: 10upx;
+				border: 2px dashed rgba(0, 126, 255, 1);
+				text-align: center;
+				padding: 18upx 20upx 20upx 20upx;
+				box-sizing: border-box;
+				margin-top: 10upx;
+				// margin-left: 10upx;
+
+				.upload-img {
+					width: 64upx;
+					height: 64upx;
+				}
+
+				.text {
+					color: #9BA0A4;
+					font-size: 26upx;
+					font-family: PingFangSC-Regular, PingFang SC;
+				}
+			}
+		}
+		.textarea-box{
+			background-color: #fff;
+			position: relative;
+
+			.max-num-limit {
+				position: absolute;
+				right: 18upx;
+				bottom: 4upx;
+				color: #9BA0A4;
+			}
+		}
+	}
+	.select-area{
+		padding: 0 32rpx;
+		.select-form {
+			//padding: 0 40rpx;
+		}
+		.suggestion{
+			margin-top: 50rpx;
+			font-size: 28rpx;
+			font-family: PingFangSC-Regular, PingFang SC;
+			font-weight: 400;
+			color: #113260;
+			line-height: 44rpx;
+			position: relative;
+
+			.title {
+				font-size: 32rpx;
+				font-family: PingFangSC-Medium, PingFang SC;
+				font-weight: 500;
+				color: #131415;
+				line-height: 44rpx;
+
+				.left-line {
+					display: inline-block;
+					position: absolute;
+					left: -20rpx;
+					top: 7rpx;
+					width: 6rpx;
+					height: 36rpx;
+					background: #2163E0;
+					border-radius: 6rpx 0 0 6rpx;
+				}
+			}
+
+			.tip {
+				margin-top: 12rpx;
+			}
+		}
+	}
+	.submitBtn{
+		position: fixed;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		bottom: 30rpx;
+		left: 0;
+		.submitContent{
+			width: 90%;
+			background: #2979ff;
+			color: #FFFFFF;
+		}
+	}
+
+}

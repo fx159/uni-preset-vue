@@ -1,16 +1,301 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/user-center/receipt",
+      "style": {
+        "navigationBarTitleText": "收款码"
+      }
+    },
+    {
+      "path": "pages/user-center/electronic-visa",
+      "style": {
+        "navigationBarTitleText": "闪电签约"
+      }
+    },
+    {
+      "path": "pages/web-view/index",
+      "style": {}
+    },
+    {
+      "path": "pages/user-center/index",
+      "style": {
+        "navigationBarTitleText": "我的 ",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/user-center/usermessage",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    },
+    {
+      "path": "pages/user-center/about",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/user-center/userImage",
+      "style": {
+        "navigationBarTitleText": "个人头像"
+      }
+    },
+    {
+      "path": "pages/user-center/editPhone",
+      "style": {
+        "navigationBarTitleText": "修改手机号"
+      }
+    },
+    {
+      "path": "pages/user-center/editName",
+      "style": {
+        "navigationBarTitleText": "修改昵称"
+      }
+    },
+    {
+      "path": "pages/user-center/contract-template",
+      "style": {
+        "navigationBarTitleText": "合同模板库"
+      }
+    },
+    {
+      "path": "pages/serve/index",
+      "style": {
+        "navigationBarTitleText": "服务"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pageServe",
+      "pages": [
+        {
+          "path": "imgTextConsult/index",
+          "style": {
+            "navigationBarTitleText": "在线咨询"
+          }
+        },
+        {
+          "path": "my-order/index",
+          "style": {
+            "navigationBarTitleText": "我的订单"
+          }
+        },
+        {
+          "path": "user-instrument/index",
+          "style": {
+            "navigationBarTitleText": "我的文书"
+          }
+        },
+        {
+          "path": "my-user-detail/index"
+        },
+        {
+          "path": "my-order-detail/index"
+        },
+        {
+          "path": "appointment/index",
+          "style": {
+            "navigationBarTitleText": "预约时间"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pagesOther",
+      "pages": [
+        {
+          "path": "consultation-view/index",
+          "style": {
+            "navigationBarTitleText": "法律问诊"
+          }
+        },
+        {
+          "path": "roomView/index",
+          "style": {
+            "navigationBarTitleText": "视频咨询"
+          }
+        },
+        {
+          "path": "login/index",
+          "style": {
+            "navigationBarTitleText": "登录"
+          }
+        },
+        {
+          "path": "qa/main",
+          "style": {
+            "navigationBarTitleText": "智能咨询"
+          }
+        },
+        {
+          "path": "login/code",
+          "style": {
+            "navigationBarTitleText": "登录获取验证码"
+          }
+        },
+        {
+          "path": "knowledge/index",
+          "style": {
+            "navigationBarTitleText": "知识卡片"
+          }
+        },
+        {
+          "path": "advice/index",
+          "style": {
+            "navigationBarTitleText": "反馈建议 "
+          }
+        },
+        {
+          "path": "commentList/index",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "message/detail",
+          "style": {}
+        },
+        {
+          "path": "message/list",
+          "style": {}
+        },
+        {
+          "path": "leave-message/index",
+          "style": {}
+        },
+        {
+          "path": "pay-info/index",
+          "style": {
+            "navigationBarTitleText": "支付订单 "
+          }
+        },
+        {
+          "path": "pay-info/product-pay",
+          "style": {
+            "navigationBarTitleText": "支付订单 "
+          }
+        },
+        {
+          "path": "pay-info/service-agreement",
+          "style": {
+            "navigationBarTitleText": "服务协议 "
+          }
+        },
+        {
+          "path": "order-comment/index",
+          "style": {
+            "navigationBarTitleText": "服务评价 "
+          }
+        },
+        {
+          "path": "365pay/index",
+          "style": {
+            "navigationBarTitleText": "我的律所"
+          }
+        },
+        {
+          "path": "365pay/main",
+          "style": {
+            "navigationBarTitleText": "我的律所"
+          }
+        },
+        {
+          "path": "financing-litigation/index",
+          "style": {
+            "navigationBarTitleText": "融资诉讼"
+          }
+        },
+        {
+          "path": "financing-litigation/process",
+          "style": {
+            "navigationBarTitleText": "融资诉讼"
+          }
+        },
+        {
+          "path": "financing-litigation/from",
+          "style": {
+            "navigationBarTitleText": "融资诉讼"
+          }
+        },
+        {
+          "path": "legal-counsel/index",
+          "style": {
+            "navigationBarTitleText": "企业法律顾问"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pagesSub",
+      "pages": [
+        {
+          "path": "receipt/index",
+          "style": {
+            "navigationBarTitleText": "收款"
+          }
+        },
+        {
+          "path": "receipt-record/index",
+          "style": {
+            "navigationBarTitleText": "收款记录"
+          }
+        },
+        {
+          "path": "address-administration/index",
+          "style": {
+            "navigationBarTitleText": "地址管理"
+          }
+        },
+        {
+          "path": "map/index",
+          "style": {}
+        }
+      ]
+    }
+  ],
+  "tabBar": {
+    "color": "#2E4E6F",
+    "selectedColor": "#2E4E6F",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/icon/tabbar_icon_home_n@2x.png",
+        "selectedIconPath": "static/icon/tabbar_icon_home_s@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/serve/index",
+        "iconPath": "static/icon/tabbar_icon_serve_n@2x.png",
+        "selectedIconPath": "static/icon/tabbar_icon_serve_s@2x.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/user-center/index",
+        "iconPath": "static/icon/tabbar_icon_my_n@2x.png",
+        "selectedIconPath": "static/icon/tabbar_icon_my_s@2x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大律云律所",
+    "navigationBarBackgroundColor": "#ECF1F7",
+    "backgroundColor": "#FFFFFF",
+    "style": "v2"
+  }
 }

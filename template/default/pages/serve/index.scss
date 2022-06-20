@@ -1,0 +1,306 @@
+.serve-container{
+	background-color: #F5F6F9
+}
+.main-container{
+	position: absolute;
+	top: 320upx;
+	width: 100%;
+	padding: 0 20upx;
+	//https://cdn-obs-question.aegis-info.com/mall/newspaper/20220513_cf9a074a-09fa-4314-906d-e91e9d1a10bf.png
+	.lawyer-content{
+		display: flex;
+		flex-direction: column;
+		padding: 0 0 0 36upx;
+		background-color: #fff;
+		font-size: 30upx;
+		border-radius: 3px;
+		border: 1px solid rgba(39, 78, 140, 0.1);
+		.lawyer-title{
+			height: 80upx;
+			line-height: 80upx;
+			font-size: 34upx;
+			margin-left: -10upx;
+			font-weight: 600;
+		}
+		.lawyer-list{
+			display: flex;
+			// justify-content: space-between;
+			padding: 20upx 12upx 20upx 20upx;
+			
+			box-sizing: border-box;
+			height: 100upx;
+			align-items: center;
+			
+			&:nth-child(2){
+				border-bottom: 1px solid #EBEBEB;
+			}
+			&:nth-child(3){
+				border-bottom: 1px solid #EBEBEB;
+			}
+			&:nth-child(4){
+				border-bottom: 1px solid #EBEBEB;
+			}
+		}
+		.list-right{
+			flex: 1;
+			color: #FFFFFF;
+			border-radius: 6upx;
+			background-color: #2E4E6F;
+			text-align: center;
+			padding: 10upx 6upx;
+			font-size: 26upx;
+			margin-left: 10upx;
+		}
+		.list-left{
+			position: relative;
+			// height: 80upx;
+			// line-height: 80upx;
+			width: 78%;
+			padding-right: 20upx;
+			box-sizing: border-box;
+			word-wrap: break-word;
+    	word-break: normal;
+			&::after{
+				position: absolute;
+				content: '';
+				display: inline-block;
+				width: 28upx;
+				height: 28upx;
+				top: 8upx;
+				left: -36upx;
+			}
+		}
+		.left-phone{
+			&::after{
+				background: url('https://cdn-obs-question.aegis-info.com/mall/newspaper/20220513_cf9a074a-09fa-4314-906d-e91e9d1a10bf.png') no-repeat center center;
+				background-size: cover;
+			}
+		}
+		.left-card{
+			&::after{
+				background: url('https://cdn-obs-question.aegis-info.com/mall/newspaper/20220513_d6c024ad-2e0f-4197-8046-5329fba6db29.png') no-repeat center center;
+				background-size: cover;
+			}
+		}
+		.left-lawyer{
+			&::after{
+				background: url('https://cdn-obs-question.aegis-info.com/mall/newspaper/20220513_bfbadc70-f46a-4b58-9a41-9a2f77c013d8.png') no-repeat center center;
+				background-size: cover;
+			}
+		}
+		//https://cdn-obs-question.aegis-info.com/mall/newspaper/20220513_bfbadc70-f46a-4b58-9a41-9a2f77c013d8.png
+		.left-location{
+			&::after{
+				background: url('https://cdn-obs-question.aegis-info.com/mall/newspaper/20220513_d9c51c09-f1a0-4108-ac6a-f28098051226.png') no-repeat center center;
+				background-size: cover;
+			}
+		}
+	}
+}
+.serve-desc{
+	display: flex;
+	padding: 0 30upx;
+	justify-content: space-between;
+	align-items: center;
+	height: 128upx;
+	background-color: #FFFFFF;
+	margin-top: 20upx;
+}
+.right-arrow{
+	color: $uni-color-houlv;
+	display: flex;
+	align-items: center;
+	image{
+		width: 34upx;
+		height: 34upx;
+	}
+}
+.right-button{
+	border: 2upx $uni-color-houlv  solid;
+	width: 148upx;
+	height: 48upx;
+	color: $uni-color-houlv ;
+	border-radius: 24upx;
+	box-sizing: border-box;
+	font-size: 24upx;
+	text-align: center;
+	line-height: 48upx;
+	font-family: PingFangSC-Medium, PingFang SC;
+}
+.left-desc{
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	image{
+		width: 40upx;
+		height: 40upx;
+		margin: 0 10upx;
+	}
+}
+.user-serve-desc{
+	margin-top: 30upx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	.desc{
+		display: flex;
+		flex-direction: column;
+		padding: 28upx;
+		position: relative;
+		width: 340upx;
+		height: 198upx;
+		background-color: #FFFFFF;
+		margin: 20upx 0;
+		border: 1px solid rgba(39, 78, 140, 0.1);
+		.title{
+			font-size: 34upx;
+			font-weight: bold;
+		}
+		.times{
+			color: #999999;
+		}
+		.review{
+			margin-top: 30upx;
+			color: #2E4E6F;
+			display: flex;
+			align-items: center;
+		}
+		.icon-more{
+			width: 30upx;
+			height: 30upx;
+			margin: 0 10upx;
+		}
+	}
+	.desc-image{
+		width: 108upx;
+		height: 108upx;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+}
+.user-content{
+	background-color: #FFFFFF;
+	position: relative;
+	padding:  30upx;
+	border: 1px solid rgba(39, 78, 140, 0.1);
+	.right-button{
+		position: absolute;
+		bottom: 30upx;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.desc{
+		display: flex;
+		.avater{
+           width: 100upx;
+           padding: 20upx 0 0 0;
+           margin-right: 10upx;
+
+           image{
+			   width: 98upx;
+			   height: 98upx;
+			   border-radius: 50%;
+           }
+		}
+		.content{
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			.top{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin: 20upx 0;
+			}
+			.title-left{
+				font-size: 34upx;
+				font-weight: bold;
+			}
+			.title-phone{
+				color: #003F93;
+				position: relative;
+				image{
+					position: absolute;
+					width: 34upx;
+					height: 34upx;
+					left: -40upx;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+			}
+			.behavior{
+                margin: 20upx 0;
+				color: #666666;
+			}
+			.label{
+				display: flex;
+				flex-wrap: wrap;
+				text{
+					display: inline-block;
+					width: 96upx;
+					text-align: center;
+					padding: 10upx 10upx;
+					color: #003F93;
+					background-color: #E5EBF4;
+          margin: 0 10upx 10upx 0;
+				}
+			}
+		}
+	}
+}
+.order-content{
+	background-color: #FFFFFF;
+	padding:  30upx;
+	border: 1px solid rgba(39, 78, 140, 0.1);
+	position: relative;
+	.desc{
+		background-color: #E5EBF4;
+		padding: 20upx;
+		position: relative;
+		margin: 0 0 20upx 0;
+		view{
+			margin: 18upx 0 0 0;
+		}
+		.law-name{
+			font-weight: bold;
+			margin-right: 120upx;
+			display: flex;
+			.title{
+				width: 330upx;
+				display: inline-block;
+				vertical-align: top;
+				position: relative;
+				margin: 0 0 0 15upx;
+			}
+			.title::before{
+				content: '';
+				width: 4upx;
+				height: 30upx;
+				top: 5upx;
+				background-color: #000000;
+				position: absolute;
+				left: -10upx;
+			}
+		}
+		.text{
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 56upx;
+			width: 116upx;
+			line-height: 56upx;
+			text-align: center;
+			display: inline-block;
+      color: #FFFFFF;
+			background-color: #D50F19;
+		}
+	}
+	.right-button{
+		position: absolute;
+		bottom: 28upx;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

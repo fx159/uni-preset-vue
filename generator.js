@@ -41,14 +41,17 @@ module.exports = (api, options, rootOptions) => {
     return {
       dependencies: {
         'regenerator-runtime': '^0.12.1',// 锁定版本，避免高版本在小程序中出错
-        '@dcloudio/uni-helper-json': '*'
+        '@dcloudio/uni-helper-json': '*',
+        'uview-ui': '^2.0.31'
       },
       devDependencies: {
         "@babel/runtime": "~7.17.9",// 临时指定版本，7.13.x 会报错
         'postcss-comment': '^2.0.0',
         '@dcloudio/types': '^3.0.4',
         'miniprogram-api-typings': '*',
-        'mini-types': '*'
+        'mini-types': '*',
+        'sass': '^1.49.8',
+        'sass-loader': '^8.0.2'
       },
       resolutions: {
         "@babel/runtime": "~7.17.9"
