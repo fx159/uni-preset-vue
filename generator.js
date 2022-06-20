@@ -12,7 +12,10 @@ async function generate(dir, files, base = '', rootOptions = {}) {
     nodir: true
   }).forEach(rawPath => {
     const sourcePath = path.resolve(dir, rawPath)
-    const filename = path.join(base, rawPath)
+    let filename = path.join(base, rawPath)
+    if (path.basename(filename) === 'vue.config.js') {
+      filename = path.join('',rawPath)
+    }
 
     if (isBinary.sync(sourcePath)) {
       files[filename] = fs.readFileSync(sourcePath) // return buffer
@@ -93,11 +96,7 @@ module.exports = (api, options, rootOptions) => {
     const base = 'src'
     await generate(path.resolve(__dirname, './template/common'), files)
     if (template === 'default') {
-      if (path.basename(filename) === 'vue.config.js'){
-        await generate(path.resolve(__dirname, './template/default'), files, '', rootOptions)
-      } else {
-        await generate(path.resolve(__dirname, './template/default'), files, base, rootOptions)
-      }
+      await generate(path.resolve(__dirname, './template/default'), files, base, rootOptions)
     } else if (template === 'default-ts') {
       await generate(path.resolve(__dirname, './template/common-ts'), files)
       await generate(path.resolve(__dirname, './template/default-ts'), files, base, rootOptions)
