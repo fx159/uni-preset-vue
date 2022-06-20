@@ -12,9 +12,11 @@ async function generate(dir, files, base = '', rootOptions = {}) {
     nodir: true
   }).forEach(rawPath => {
     const sourcePath = path.resolve(dir, rawPath)
-    let filename = path.join(base, rawPath)
+    let filename
     if (path.basename(filename) === 'vue.config.js') {
       filename = path.join('',rawPath)
+    } else {
+      filename = path.join(base, rawPath)
     }
 
     if (isBinary.sync(sourcePath)) {
