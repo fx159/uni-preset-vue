@@ -17,6 +17,7 @@ async function generate(dir, files, base = '', rootOptions = {}) {
       filename = path.join('',rawPath)
     } else {
       filename = path.join(base, rawPath)
+      
     }
 
     if (isBinary.sync(sourcePath)) {
