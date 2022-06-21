@@ -3,6 +3,7 @@
 const install = (Vue, vm) => {
 	const calculateTime = (val = '',endTime = '') => {
 		let stime = val;
+		console.log(111)
 		let etime = new Date();
 		// 两个时间戳相差的毫秒数
 		let usedTime = etime - stime;
