@@ -12,7 +12,7 @@ async function generate(dir, files, base = '', rootOptions = {}) {
     nodir: true
   }).forEach(rawPath => {
     const sourcePath = path.resolve(dir, rawPath)
-    let filename
+    let  filename
     if (path.basename(filename) === 'vue.config.js') {
       filename = path.join('',rawPath)
     } else {
