@@ -339,11 +339,6 @@
 			}
 		},
 		onShow() {
-			this.$u.mpShare.title = getApp().globalData.relay_title;
-			this.$u.mpShare.desc = getApp().globalData.relay_desc;
-			wx.setNavigationBarTitle({
-				title: getApp().globalData.web_title
-			})
 			// 设置页面缓存
 			this.$store.commit('setPagerInfo', {
 				name: '登录页',
