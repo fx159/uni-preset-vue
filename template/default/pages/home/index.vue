@@ -538,13 +538,6 @@
 							})
 					}
 			},
-			async getBannerSettings(){
-				const res = await this.$u.api.getH5Setting({
-						interfaceId: getApp().globalData.type,
-						eventId: getApp().globalData.unitId
-					});
-				console.log(res)
-			},
 			/**
 			 * 判断网络情况
 			 */
@@ -577,12 +570,6 @@
 				wx.switchTab({
 					url:'/pages/qa/main'
 				})
-				// uni.setStorageSync('contactCustomer', 'freeService');
-				// setTimeout(() => {
-				// 	this.$u.route({
-				// 		url: '/pages/qa/main'
-				// 	});
-				// }, 1000)
 			},
 			// 跳转登录
 			async handleLogin() {
