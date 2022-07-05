@@ -1,7 +1,7 @@
 <template>
 	<view class="index-page">
 		
-		<view class="title-text" :style="{'top':titleStyle.top+'px','height': titleStyle.height+'px', 'line-height': titleStyle.height+'px'}">侯朝辉法律顾问</view>
+		<view class="title-text" :style="{'top':titleStyle.top+'px','height': titleStyle.height+'px', 'line-height': titleStyle.height+'px'}">海浩律所法律顾问</view>
 		<view class="header-content">
 			<swiper style="width:100%;height:100%;"  :current="activeSwiper" @change="swiperChange" :autoplay="autoplay" :interval="4000" class="swiper" circular>
 				<swiper-item>
@@ -535,7 +535,7 @@
 					}else{
 						wx.navigateTo({
 								url: `/pagesOther/365pay/index?spuId=${spu.spuId}&orderType=${orderType}`
-							})
+						})
 					}
 			},
 			/**
@@ -655,7 +655,7 @@
 							getApp().globalData.openId = openid;
 							getApp().globalData.session_key = session_key;
 							const obj = {
-								source: '侯朝辉法律顾问',
+								source: '海浩律所法律顾问',
 								role: '',
 								openId: openid
 							}

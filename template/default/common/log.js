@@ -30,7 +30,7 @@ async function requestLog(params = {
 	const log = {
 		// platformCode: 'iLawyer', //平台编码
 		ua: system&&system.model || '', // 手机配置信息
-		project: '侯朝辉法律顾问', // 项目信息
+		project: '海浩律所法律顾问', // 项目信息
 		version: '1.0.0', // 版本信息
 		channelCode: 'mp-houlv', // 渠道
 		sourceCode: getApp().globalData.unitId, // source

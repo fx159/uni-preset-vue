@@ -943,7 +943,7 @@ export default {
                 messageType: type,
                 isCustomer: 1,
                 unitId: getApp().globalData.unitId,
-                source: "侯朝辉法律顾问",
+                source: "海浩律所法律顾问",
             };
             if(type == 14 ){
               // params.receiver = this.userInfo.id

@@ -89,13 +89,6 @@ export default {
   },
   data() {
     return {
-      messageInfo: {
-          title: "候朝辉律师",
-          phone: "4006643088",
-          lawyerNumber: "13101 2019 1008 8047",
-          lawyerLocation: "北京京师（上海）律师事务所",
-          callLocation: "上海市静安区恒丰路299号京师律师广场3层",
-      },
       rankListMostUser: [],
       rankListMostOrder: [],
       permisson: false,
